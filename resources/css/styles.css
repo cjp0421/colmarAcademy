@@ -1,0 +1,16 @@
+* {
+    box-sizing: content-box;
+}
+
+.container {
+    display: flex;
+}
+
+.nav-li {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+li {
+    color: blueviolet;
+}
