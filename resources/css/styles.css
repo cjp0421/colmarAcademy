@@ -1,5 +1,5 @@
 html,
-header,
+header, footer,
 body {
     margin: 0%;
     padding: 0%;
@@ -34,6 +34,13 @@ header {
 
 .navlink {
     text-decoration: none;
+    color: rgb(75, 73, 73);
+
+}
+
+.navlink:hover {
+    text-decoration: underline;
+    color: rgb(37, 37, 37);
 }
 
 .nav-group {
@@ -41,10 +48,34 @@ header {
     justify-content: end;
 }
 
+.footer-p {
+    display: inline-flex;
+    align-content: flex-end;
+    justify-content: end;
+    text-align: end;
+}
+
 #wordOne, #wordTwo {
     display: inline-flex;
+    text-transform: uppercase;
 }
 
 #wordOne {
+  
+    color: rgb(75, 73, 73);
+    font-weight: 700;
+}
+
+#wordTwo {
+    color: rgb(117, 115, 115);
+    font-weight: 300;
+}
+
+#nav-logo{
     margin-left: 24px;
+    height: 32px;
+}
+
+#footerPOne {
+    align-self: flex-start;
 }
