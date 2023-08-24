@@ -1,16 +1,48 @@
 * {
     box-sizing: content-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav,
+header {
+    display: inline-flex;
+    height: 64px;
+    margin: 0 auto;
+    background-color: white;
+    width: 100vw;
 }
 
 .container {
     display: flex;
+    width: 100%;
+    background-color: gray;
 }
 
 .nav-li {
     display: inline-flex;
     list-style-type: none;
+    margin: 0px 16px 0px;
+    text-decoration: none;
+
 }
 
-li {
-    color: blueviolet;
+.nav-group {
+    display: inline-flex;
+
+}
+
+.titleWord1 {
+    margin-left: 24px;
+}
+
+.titleWord1,
+.titleWord2 {
+    display: inline-flex;
+    text-align: left;
+    line-height: 32px;
+}
+
+.navlink {
+    text-decoration: none;
 }
