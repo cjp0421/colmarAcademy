@@ -1,48 +1,20 @@
-* {
-    box-sizing: content-box;
-    padding: 0px;
-    margin: 0px;
-}
-
-nav,
-header {
-    display: inline-flex;
-    height: 64px;
-    margin: 0 auto;
-    background-color: white;
-    width: 100vw;
+html,
+header,
+body {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
 }
 
 .container {
-    display: flex;
+    margin: 0px;
+    padding: 0px;
     width: 100%;
-    background-color: gray;
+    max-width: 100%;
 }
 
-.nav-li {
-    display: inline-flex;
-    list-style-type: none;
-    margin: 0px 16px 0px;
-    text-decoration: none;
-
-}
-
-.nav-group {
-    display: inline-flex;
-
-}
-
-.titleWord1 {
-    margin-left: 24px;
-}
-
-.titleWord1,
-.titleWord2 {
-    display: inline-flex;
-    text-align: left;
-    line-height: 32px;
-}
-
-.navlink {
-    text-decoration: none;
+div {
+    background-color: blueviolet;
+    display: block;
+    width: 100%;
 }
