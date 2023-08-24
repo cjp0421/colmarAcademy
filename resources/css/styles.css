@@ -4,6 +4,7 @@ body {
     margin: 0%;
     padding: 0%;
     width: 100%;
+    background-color: gray;
 }
 
 .container {
@@ -11,10 +12,41 @@ body {
     padding: 0px;
     width: 100%;
     max-width: 100%;
+    
 }
 
-div {
-    background-color: blueviolet;
+
+header {
+    background-color: #fff;
     display: block;
     width: 100%;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    line-height: 24px;
+}
+
+.nav-li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 16px 0px;
+    text-align:end;
+}
+
+.navlink {
+    text-decoration: none;
+}
+
+.nav-group {
+    display: inline-flex;
+    justify-content: end;
+}
+
+#wordOne, #wordTwo {
+    display: inline-flex;
+    line-height: 24px;
+}
+
+#wordOne {
+    margin-left: 24px;
 }
