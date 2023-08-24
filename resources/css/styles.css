@@ -12,7 +12,6 @@ body {
     padding: 0px;
     width: 100%;
     max-width: 100%;
-    
 }
 
 
@@ -23,7 +22,7 @@ header {
     max-width: 100%;
     margin: 0px;
     padding: 0px;
-    line-height: 24px;
+    line-height: 64px;
 }
 
 .nav-li {
@@ -44,7 +43,6 @@ header {
 
 #wordOne, #wordTwo {
     display: inline-flex;
-    line-height: 24px;
 }
 
 #wordOne {
